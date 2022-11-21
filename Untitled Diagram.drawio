@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T02:42:56.970Z" agent="5.0 (Windows)" version="20.5.3" etag="YQ6wgKg9ahDXTsGgR3Vo" type="github"><diagram id="Pl8fO7TuZJMw17oeAh5s">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T02:56:08.805Z" agent="5.0 (Windows)" etag="btQJlTlpgxCiVgm7NwW6" version="20.5.3" type="github">
+  <diagram id="Pl8fO7TuZJMw17oeAh5s" name="Page-1">
+    <mxGraphModel dx="1718" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-5" value="&lt;div&gt;calculate the sum of squares of given input of numbers&lt;/div&gt;&lt;div&gt;N = 5&lt;/div&gt;&lt;div&gt;i = 1, i = 2, i = 3, i = 4, i = 5&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="50" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jSwPojnAOSRlNr7R1pcG-6">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-2" value="&lt;div&gt;sum = 0&lt;/div&gt;&lt;div&gt;i = 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jSwPojnAOSRlNr7R1pcG-6">
+          <mxGeometry y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jSwPojnAOSRlNr7R1pcG-6" source="jSwPojnAOSRlNr7R1pcG-1" target="jSwPojnAOSRlNr7R1pcG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint x="120" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jSwPojnAOSRlNr7R1pcG-2" target="jSwPojnAOSRlNr7R1pcG-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-10" value="i = &amp;gt;5 " style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-12" value="print sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jSwPojnAOSRlNr7R1pcG-10" target="jSwPojnAOSRlNr7R1pcG-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-14" value="stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jSwPojnAOSRlNr7R1pcG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="jSwPojnAOSRlNr7R1pcG-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-17" value="sum = sum + i*i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-18" value="if false, calculation continues" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="225" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-19" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jSwPojnAOSRlNr7R1pcG-19" target="jSwPojnAOSRlNr7R1pcG-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-21" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; until i is = false, calculation will continue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="565" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jSwPojnAOSRlNr7R1pcG-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jSwPojnAOSRlNr7R1pcG-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="210" y="188" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="470" />
+              <mxPoint x="60" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
