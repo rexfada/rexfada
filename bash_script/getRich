@@ -1,0 +1,33 @@
+#!/bin/bash
+#This program tells when you will become a millioniare
+echo "what is your name? "
+read name
+echo "how old are you? "
+read age
+echo "My name is $name and I am $age years old"
+getRichTime=$((($RANDOM % 15 ) + $age))
+echo "..........................................................................................."
+echo "              Calculating how long it will take for you to be a billionaire"
+echo "............................................................................................"
+#sleep 5
+#echo "5"
+#sleep 4
+#echo "45"
+#sleep 3
+#echo "345"
+#sleep 2
+#echo "2345"
+#sleep 1
+#echo "12345"
+sleep 1
+echo .
+sleep 1
+echo ..
+sleep 1
+echo ...
+sleep 1
+echo ....
+sleep 1
+echo .....
+sleep 1
+echo "Hello, $name, by the immortal shihandru guru desere, you will be a billionaire in $getRichTime years time"
