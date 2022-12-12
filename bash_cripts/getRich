@@ -1,0 +1,32 @@
+#!/bin/bash
+echo ................................................................................................
+echo "       This program will calculate how long it will take one to be a billionaire"
+echo ................................................................................................
+# getRichTime=$((($RANDOM % 15))+$age)
+echo what is your name 
+read name
+echo how old are you
+read age
+
+
+echo "welcome $name, you are $age years old"
+
+echo "..............................................................................................."
+echo "              CALCULATING HOW LONG IT WILL TAKE FOR YOU TO BE A BILLIONIARE"
+echo "..............................................................................................."
+
+sleep 2
+echo .
+
+sleep 1
+echo ..
+sleep 1
+echo ...
+sleep 1
+echo ....
+sleep 1
+echo .....
+sleep 3
+getRichTime="$((($RANDOM % 15)+$age))"
+
+echo "Hello $name, by the IMMORTAL SHIHANDRU, the tomorrow seer and wealth giver, you will become a billionaire by the time you are $getRichTime years old"
